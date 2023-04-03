@@ -1,0 +1,24 @@
+<div>
+    <form>
+        <input type="number" name="num1" [(ngModel)]="num1">
+        &nbsp;
+        <br>
+        <br>
+        <input type="number" name="num2" [(ngModel)]="num2">
+        <br>
+        <br>
+        <button (click)="somar()">+</button>
+        &nbsp;
+         <button (click)="multiplicar()">X</button>
+         &nbsp;
+          <button (click)="subtrair()">-</button>
+           &nbsp;
+           <button (click)="dividir()">/</button>
+        <br>
+        <br>
+        <input [value]="soma">
+        
+        
+    </form>
+</div>
+
